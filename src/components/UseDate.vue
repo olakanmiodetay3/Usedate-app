@@ -57,9 +57,9 @@ const handleClick = () => {
   }
 };
 
-// const handleClick = () => {
-//   dates.value = handleAddDaysAndMonths();
-// };
+const handleClicked = () => {
+  dates.value = handleAddDaysAndMonths();
+};
 </script>
 
 <style scoped></style>
