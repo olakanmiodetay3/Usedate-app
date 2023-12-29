@@ -17,7 +17,7 @@
   
   <script setup>
   import {ref} from 'vue';
-  import useDate from "../composables/useDate";
+  import useDate from "./composables/useDate";
   const { date, getDay, getMonth, addDay, addMonth } = useDate();
   
   const daysToAdd = ref("");
